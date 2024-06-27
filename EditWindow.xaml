@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfApp.Views.EditWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="EditWindow" Height="300" Width="400">
+    <Grid>
+        <StackPanel>
+            <TextBox Text="{Binding Tytul}" Margin="5"/>
+            <TextBox Text="{Binding Rezyser}" Margin="5"/>
+            <TextBox Text="{Binding Studio}" Margin="5"/>
+            <TextBox Text="{Binding Nosnik}" Margin="5"/>
+            <TextBox Text="{Binding Dlugosc}" Margin="5"/>
+            <TextBox Text="{Binding DataWydania}" Margin="5"/>
+            <Button Content="OK" Click="Ok_Click" Margin="5"/>
+        </StackPanel>
+    </Grid>
+</Window>
